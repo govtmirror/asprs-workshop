@@ -1,0 +1,7 @@
+- place_name: Denver, 80204, Colorado, United States
+  zoom: 16
+  center: 
+    - 39.74846032110421
+    - -105.00320434570312
+  tags: 
+    - userbookmark

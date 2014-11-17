@@ -1,0 +1,35 @@
+_prefs: 
+  disabled: []
+  inspector: false
+  mapid: mamata.11d9256f
+  rev: s-7cf1e1e8
+  saveCenter: true
+attribution: OpenStreetMap
+center: 
+  - -104.9989
+  - 39.752
+  - 15
+description: Restaurants in downtown Denver
+Layer: 
+  - id: denver_restaurants
+    Datasource: 
+      file: /Development/asprs-workshop/data/restaurants.geojson
+      layer: OGRGeoJSON
+      type: ogr
+    description: Restaurants in downtown Denver
+    fields: 
+      id: osm id
+      address: address
+      amenity: type of restaurant
+      cartodb_id: Number
+      created_at: String
+      cuisine: type of cuisine
+      name: name
+      rating: restaurant rating
+      updated_at: String
+    properties: 
+      "buffer-size": 60
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+maxzoom: 15
+minzoom: 14
+name: Denver Restaurants
